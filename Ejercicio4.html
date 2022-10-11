@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function divisible(x){
+            console.log("El numero introducido es: "+x);
+            if(x%2==0)
+            alert("El numero es divisible entre 2.");
+            else
+            alert("El numero no es divisible entre 2.");
+
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" id="p1"></input><button onclick="divisible(document.getElementById('p1').value)">Calcular</button>
+</body>
+</html>
